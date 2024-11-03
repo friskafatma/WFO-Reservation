@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DB_WFHReserve">
+  <DataContextMoniker Name="/DB_WFHReserveDataContext" />
+  <nestedChildShapes>
+    <classShape Id="95d1cca9-9c2a-432e-b29e-46db96028949" absoluteBounds="3.375, 3.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DB_WFHReserveDataContext/TBL_KARY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3f037b19-c602-4cf6-9f58-c10cd69df833" absoluteBounds="3.39, 4.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a3f230fa-f2da-4ca9-9ee4-0a89c0ea41d9" absoluteBounds="3.375, 1.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DB_WFHReserveDataContext/TBL_BOOKING" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bf7d05ca-1b85-4a40-a3b6-a38fa1e50db0" absoluteBounds="3.39, 2.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f376cbc6-4045-461f-a8e1-6174df30e036" absoluteBounds="0.5, 1.625, 2, 2.5401025390625">
+      <DataClassMoniker Name="/DB_WFHReserveDataContext/VW_BOOKED" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e1fe248a-a5f4-47d6-a411-71871a93c23b" absoluteBounds="0.515, 2.085, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c9e733f9-00b6-47a6-89d0-fd9df93253a8" absoluteBounds="5.875, 1.625, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/DB_WFHReserveDataContext/TBL_USER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cb6a5959-5c0b-47ec-bfcf-f9fd3824b5e0" absoluteBounds="5.89, 2.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a8d2a2bb-45a3-471a-8690-641f89046cf0" absoluteBounds="5.75, 3.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DB_WFHReserveDataContext/TBL_SEAT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8f8f2fb1-af5f-4232-b5d5-feb511c379d0" absoluteBounds="5.765, 3.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,52 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.row {
+    display: flex;
+    justify-content: center; /* Centering row */
+    margin-bottom: 10px;
+}
+
+.seat {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .seat:hover {
+        background-color: #ddd; /* Warna saat hover */
+    }
+
+    .seat.booked {
+        background-color: #f44336; /* Merah untuk kursi yang sudah dipesan */
+        cursor: not-allowed;
+    }
+
+    .seat.available {
+        background-color: #4CAF50; /* Hijau untuk kursi yang tersedia */
+    }

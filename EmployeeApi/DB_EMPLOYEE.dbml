@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DB_TEST" Class="DB_EMPLOYEEDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.TBL_KARY" Member="TBL_KARies">
+    <Type Name="TBL_KARY">
+      <Column Name="nrp" Type="System.String" DbType="VarChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nama" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="dept" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="gender" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="alamat" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

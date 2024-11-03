@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DB_TEST" Class="DB_WFHReserveDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.TBL_USER" Member="TBL_USERs">
+    <Type Name="TBL_USER">
+      <Column Name="nrp" Type="System.String" DbType="VarChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_USER" Member="TBL_USER1s">
+    <Type Name="TBL_USER1">
+      <Column Name="nrp" Type="System.String" DbType="VarChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_BOOKING" Member="TBL_BOOKINGs">
+    <Type Name="TBL_BOOKING">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="seat_no" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="nrp" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="tanggal" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VW_BOOKED" Member="VW_BOOKEDs">
+    <Type Name="VW_BOOKED">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="seat_no" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="nrp" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="is_avail" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="nama" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="dept" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="gender" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="alamat" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="tanggal" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_SEAT" Member="TBL_SEATs">
+    <Type Name="TBL_SEAT">
+      <Column Name="seat_no" Type="System.String" DbType="VarChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="is_avail" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="seat_type" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
